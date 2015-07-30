@@ -1,0 +1,23 @@
+{
+    "name": "d2emon/game-collection",
+    "description": "My videogame collection for octolana",
+    "type": "yii2-extension",
+    "keywords": ["octolana"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Dmitry Kutsenko",
+            "email": "d2emonium@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+	      "d2emon/octolana-miniature": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "d2emon\\games\\": ""
+        }
+    }
+}
