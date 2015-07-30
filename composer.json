@@ -11,8 +11,15 @@
         }
     ],
     "minimum-stability": "dev",
+    "repositories":[
+        {
+            "type": "git",
+	          "url":  "git@github.com:d2emon/trcards.git"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "*"
+        "d2emon/trcards": "*"
     },
     "autoload": {
         "psr-4": {
