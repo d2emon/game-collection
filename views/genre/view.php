@@ -4,14 +4,13 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\ListView;
-use frontend\modules\games\models\Genre;
 use yii\grid\GridView;
 use yii\data\ArrayDataProvider;
 use yii\helpers\ArrayHelper;
-use frontend\modules\games\helpers\GenrePath;
+use d2emon\games\helpers\GenrePath;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\modules\games\models\Genre */
+/* @var $model d2emon\games\models\Genre */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('games', 'Genres'), 'url' => ['index']];

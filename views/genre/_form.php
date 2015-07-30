@@ -3,10 +3,10 @@
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
-use frontend\modules\games\models\Genre;
+use d2emon\games\models\Genre;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\modules\games\models\Genre */
+/* @var $model d2emon\games\models\Genre */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
