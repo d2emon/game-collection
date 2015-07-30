@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-	      "d2emon/octolana-miniature": "*"
+	      "d2emon/miniature-octolana": "*"
     },
     "autoload": {
         "psr-4": {
